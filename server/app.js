@@ -1,6 +1,7 @@
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
+const path = require('path');
 const mongoose = require('mongoose');
 
 const port = process.env.PORT || 4000;
